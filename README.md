@@ -71,7 +71,7 @@ an arm that will enclose a module attached to the payload into a cavity
 
 Concept of Operation
 --------------------
-
+<p align="center">
 ![Figure 1](http://i.imgur.com/WC13b8N.png?1 "Fig 1")
 
 **Figure 1** Identifying quad copter with beacon attached to top, used for identifying drop zone
@@ -95,6 +95,7 @@ Concept of Operation
 ![Figure 6](http://i.imgur.com/nDAR6YQ.png "Fig 6")
 
 **Figure 6** Payload being attached by switching on motor
+</p>
 
 Software Design
 ---------------
