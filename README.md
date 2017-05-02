@@ -127,7 +127,7 @@ Software Design
 
 **Figure 9 Take Off Software Block Diagram**
 
-### Source Lines of Code[1](#resources)
+### Source Lines of Code
 #### Pre-arm Checks
 Arming the vehicle turns on the motors for the Copter, however before arming it needs to go through pre-arm checks which includes checking for a GPS lock, and an Extended Kalman Filter (EKF) algorithm to estimate vehicle position, velocity and angular orientation based on rate gyroscopes, accelerometer, compass, GPS, airspeed and barometric pressure measurements
 
@@ -176,4 +176,4 @@ The landing command is taken care off by the dronekit api, this can be initiated
     vehicle.close()
   
 ## Resources 
-  [1]: http://python.dronekit.io
+[Drone Kit](http://python.dronekit.io)
