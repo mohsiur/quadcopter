@@ -1,12 +1,13 @@
 Quadcopter for Lockheed Martin
 ===================
-----------
 
 [![Fly Test #1](http://i.imgur.com/DZ6Zg8d.jpg)](https://youtu.be/pdV8AvQczOo "Fly Test #1")
 ----------
+
 [TOC]
+
 Customer
--------------
+----------
 - Lockheed Martin Team
 	- Joseph M. Grozio and Daniel Sturniolo
 - US Military (Customer for Lockheed Martin)
@@ -18,7 +19,7 @@ Problem
 -------------
 
 The customer is asking for an innovative solution on how to efficiently use a dual quadcopter system to pick up and release a payload to a specific drop zone using a remote lasing system
- > - One quadcopter will have the lasing system attached while the other will identify the target and carry the payload to the target
+  > - One quadcopter will have the lasing system attached while the other will identify the target and carry the payload to the target
   > - This mission must be completed safely
   > - Within a budget of $1,200
   > - Must be completed before May 12th
@@ -72,32 +73,46 @@ Concept of Operation
 --------------------
 
 ![Figure 1](http://i.imgur.com/WC13b8N.png?1 "Fig 1")
+
 **Figure 1** Identifying quad copter with beacon attached to top, used for identifying drop zone
 
 ![Figure 2](http://i.imgur.com/AzgY8Aa.png?1 "Fig 2")
+
 **Figure 2** Main delivery drone
 
 ![Figure 3](http://i.imgur.com/tdDv2jJ.png "Fig 3")
+
 **Figure 3** Attachment Mechanism
 
 ![Figure 4](http://i.imgur.com/yw3Le9E.png "Fig 4")
+
 **Figure 4** How payload will engage with the attachment mechanism
 
 ![Figure 5](http://i.imgur.com/f53D2HV.png "Fig 5")
+
 **Figure 5** Live feed seen to attach payload
 
 ![Figure 6](http://i.imgur.com/nDAR6YQ.png "Fig 6")
+
 **Figure 6** Payload being attached by switching on motor
 
 Software Design
 ---------------
 ![Network Diagram](img/Network_Diagram.jpg)
-Network Diagram
+
+**Network Diagram**
+
 ![Interface Design Description](img/quadcopter_SW_BD.jpg)
-Interface Design Description
+
+**Interface Design Description**
+
 ![Ardupilot Software Block Diagram](img/arduPilot_block_diagram.jpg)
+
+**Ardupilot software block diagram**
+
 ![Take off Software Block Diagram](http://i.imgur.com/voCKQRu.png?1)
-Take Off Software Block Diagram
+
+**Take Off Software Block Diagram**
 
 ### Source Lines of Code[^footnote]
 #### Pre-arm Checks
