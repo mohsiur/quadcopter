@@ -27,16 +27,15 @@ The customer is asking for an innovative solution on how to efficiently use a du
 ----------
 Requirements
 -------------------
-Technical Specifications     | Brief Description
--------- | ---
-Quadcopter is able to fly a two pound payload | Payload amount set by customer along with other weight
-Deliver payload with no damage to materials    | The payload must be delivered from pick up point to drop zone with no change in condition
-Deliver payload in two square feet drop zone     | Quadcopter must deliver payload in specified drop zone by customer
-Identification system locates correct drop zone | Drop zone must be accurately identified by lasing system connected on 2nd quadcopter
-10 minute fly time | Requirement given by engineering team
-Budget of $1200 | Set by customers, any additional expenses is from engineering team
-Deadline 05/12/2017 | Final prototype should be delivered by this date
-
+| Technical Specifications | Brief Description |
+| -------------------------| ----------------- |
+| Quadcopter is able to fly a two pound payload | Payload amount set by customer along with other weight |
+| Deliver payload with no damage to materials    | The payload must be delivered from pick up point to drop zone with no change in condition |
+| Deliver payload in two square feet drop zone     | Quadcopter must deliver payload in specified drop zone by customer |
+| Identification system locates correct drop zone | Drop zone must be accurately identified by lasing system connected on 2nd quadcopter |
+| 10 minute fly time | Requirement given by engineering team |
+| Budget of $1200 | Set by customers, any additional expenses is from engineering team |
+| Deadline 05/12/2017 | Final prototype should be delivered by this date |
 
 ----------
 
@@ -71,7 +70,7 @@ an arm that will enclose a module attached to the payload into a cavity
 
 Concept of Operation
 --------------------
-<p align="center">
+
 ![Figure 1](http://i.imgur.com/WC13b8N.png?1 "Fig 1")
 
 **Figure 1** Identifying quad copter with beacon attached to top, used for identifying drop zone
@@ -95,7 +94,7 @@ Concept of Operation
 ![Figure 6](http://i.imgur.com/nDAR6YQ.png "Fig 6")
 
 **Figure 6** Payload being attached by switching on motor
-</p>
+
 
 Software Design
 ---------------
