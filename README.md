@@ -4,7 +4,20 @@ Quadcopter for Lockheed Martin
 [![Fly Test #1](http://i.imgur.com/DZ6Zg8d.jpg)](https://youtu.be/pdV8AvQczOo "Fly Test #1")
 ----------
 
-[TOC]
+## Table of Contents
+
+- [Customer](#customer)
+- [Problem](#problem)
+- [Requirements](#requirements)
+- [Summary](#summary)
+- [Concept of Operation](#concept of operation)
+- [Software Design](#software design)
+    - [Source Lines of Code](#source lines of code)
+        - [Pre Arm Checks](#pre-arm checks)
+        - [Arming and Takeoff](#arming and takeoff)
+        - [Taking Off Precautions](#taking off precautions)
+        - [Landing](#landing)
+- [Resources](#resources)
 
 Customer
 ----------
@@ -98,23 +111,23 @@ Concept of Operation
 
 Software Design
 ---------------
-![Network Diagram](img/Network_Diagram.jpg)
+![Network Diagram](img/Network_Diagram.jpg "Network Diagram")
 
-**Network Diagram**
+**Figure 7 Network Diagram**
 
-![Interface Design Description](img/quadcopter_SW_BD.jpg)
+![Interface Design Description](img/quadcopter_SW_BD.jpg "Interface Design")
 
-**Interface Design Description**
+**Figure 8 Interface Design Description**
 
-![Ardupilot Software Block Diagram](img/arduPilot_block_diagram.jpg)
+![Ardupilot Software Block Diagram](img/arduPilot_block_diagram.jpg "Block Diagram")
 
-**Ardupilot software block diagram**
+**Figure 8 Ardupilot software block diagram**
 
-![Take off Software Block Diagram](http://i.imgur.com/voCKQRu.png?1)
+![Take off Software Block Diagram](http://i.imgur.com/voCKQRu.png?1 "Take Off Block Diagram")
 
-**Take Off Software Block Diagram**
+**Figure 9 Take Off Software Block Diagram**
 
-### Source Lines of Code[^footnote]
+### Source Lines of Code[1](#resources)
 #### Pre-arm Checks
 Arming the vehicle turns on the motors for the Copter, however before arming it needs to go through pre-arm checks which includes checking for a GPS lock, and an Extended Kalman Filter (EKF) algorithm to estimate vehicle position, velocity and angular orientation based on rate gyroscopes, accelerometer, compass, GPS, airspeed and barometric pressure measurements
 
@@ -163,5 +176,4 @@ The landing command is taken care off by the dronekit api, this can be initiated
     vehicle.close()
   
 ## Resources 
-  [^footnote]: DroneKit.
   [1]: http://python.dronekit.io
