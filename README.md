@@ -28,7 +28,7 @@ The customer is asking for an innovative solution on how to efficiently use a du
 Requirements
 -------------------
 | Technical Specifications | Brief Description |
-| -------------------------| ----------------- |
+| :------------------------:| :-----------------: |
 | Quadcopter is able to fly a two pound payload | Payload amount set by customer along with other weight |
 | Deliver payload with no damage to materials    | The payload must be delivered from pick up point to drop zone with no change in condition |
 | Deliver payload in two square feet drop zone     | Quadcopter must deliver payload in specified drop zone by customer |
