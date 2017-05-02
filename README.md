@@ -73,7 +73,7 @@ Concept of Operation
 
 ![Figure 1](http://i.imgur.com/WC13b8N.png?1 "Fig 1")
 
-**Figure 1** Identifying quad copter with beacon attached to top, used for identifying drop zone
+|:**Figure 1** Identifying quad copter with beacon attached to top, used for identifying drop zone:|
 
 ![Figure 2](http://i.imgur.com/AzgY8Aa.png?1 "Fig 2")
 
